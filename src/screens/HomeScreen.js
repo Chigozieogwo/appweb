@@ -1,6 +1,7 @@
 import React from 'react'
 import './carousel.css'
 import Card from '../components/Card'
+import Product from '../components/Product'
 
 const HomeScreen = () => {
   return (
@@ -117,6 +118,7 @@ const HomeScreen = () => {
       {/*End of Hero component on the Home Screen */}
       <div className="">
         <Card />
+        <Product />
       </div>
     </>
   )
