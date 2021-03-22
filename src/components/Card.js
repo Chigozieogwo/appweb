@@ -5,12 +5,12 @@ import 'react-multi-carousel/lib/styles.css'
 import '../screens/carousel.css'
 const Card = () => {
   return (
-    <div className="flex">
-      <div>
+    <div className="">
+      {/* <div>
         <div className="pl-12 py-10 flex items-center pr-28 text-xl leading-tight text-gray-600 font-bold uppercase">
           Top Travel Deals
         </div>
-      </div>
+      </div> */}
       <Carousel
         additionalTransfrom={0}
         autoPlay
