@@ -7,14 +7,14 @@ const Card = () => {
   return (
     <div className="flex">
       <div>
-        <div className="pl-20 py-10 flex items-center pr-28 text-xl leading-tight text-gray-600 font-bold uppercase">
-          Top Trale Deals
+        <div className="pl-12 py-10 flex items-center pr-28 text-xl leading-tight text-gray-600 font-bold uppercase">
+          Top Travel Deals
         </div>
       </div>
       <Carousel
         additionalTransfrom={0}
         autoPlay
-        arrows="none"
+        arrows
         autoPlaySpeed={2000}
         centerMode={false}
         className="react-multiple-carousel__arrow--right::before"
