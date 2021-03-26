@@ -4,7 +4,32 @@ module.exports = {
   purge: [],
   presets: [],
   darkMode: false, // or 'media' or 'class'
+
   theme: {
+    extend: {
+      colors: {
+        'tb-gray_bg': '#FAFAFF',
+        'tb-gray': '#EBECFF',
+        'tb-blue_bg': '#3947F9',
+        'tb-button': '#FFB712',
+        'tb-blue_logo': '#040D7E',
+        'tb-searchbar_gray': '#F9F9FA',
+        'tb-footer': '#0614C6',
+      },
+      backgroundImage: {
+        'tb-footer-img':
+          "url('https://res.cloudinary.com/dqetx7bes/image/upload/v1616671725/image_2_jbh6gb.png')",
+      },
+      spacing: {
+        84: '22rem',
+        104: '26rem',
+        108: '28rem',
+        110: '30rem',
+        114: '32rem',
+        208: '52rem',
+        209: '53rem',
+      },
+    },
     screens: {
       sm: '640px',
       md: '768px',
@@ -63,10 +88,6 @@ module.exports = {
       72: '18rem',
       80: '20rem',
       96: '24rem',
-      104: '26rem',
-      108: '28rem',
-      110: '30rem',
-      114: '32rem',
     },
     animation: {
       none: 'none',
@@ -738,6 +759,7 @@ module.exports = {
       50: '50',
     },
   },
+
   variantOrder: [
     'first',
     'last',

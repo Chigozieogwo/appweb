@@ -1,17 +1,18 @@
 import React from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
-import Header2 from './components/Header2'
+import Header from './components/Header'
 import Footer from './components/Footer'
-import HomeScreen from './screens/HomeScreen'
+import HomeScreen2 from './screens/HomeScreen2'
 import RegisterScreen from './screens/RegisterScreen'
 
 const App = () => {
   return (
     <Router className="bg-gray-100">
-      <Header2 />
+      <Header />
+
       <main>
         <div>
-          <Route path="/" component={HomeScreen} exact />
+          <Route path="/" component={HomeScreen2} exact />
           <Route path="/register" component={RegisterScreen} />
         </div>
       </main>
